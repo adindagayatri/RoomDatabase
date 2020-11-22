@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/cvMain">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/idBuku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ID BUKU"
+                android:textSize="16sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/judulBuku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JUDUL BUKU"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NAMA PENULIS"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:id="@+id/rak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LETAK RAK"
+                android:textSize="15sp"></TextView>
+
+
+        </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
